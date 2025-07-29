@@ -1,0 +1,117 @@
+/* ===================== Navbar Styles ===================== */
+
+.navbar {
+  padding: 0; /* tanpa padding */
+  height: 60px; /* tinggi navbar */
+  background: #fff; /* warna background navbar */
+  display: flex; /* susun isi navbar secara horizontal */
+  overflow: visible; /* konten di luar border disembunyikan */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04); /* bayangan halus */
+  position: relative; /* posisi relatif untuk konten di dalamnya */
+}
+
+/* ===================== Icon Home ===================== */
+
+.navbar-home {
+  height: 60px; /* tinggi kotak icon */
+  width: 60px; /* lebar kotak icon */
+  background: #3e8efd; /* warna biru kotak icon */
+  display: flex; /* susun isi navbar secara horizontal */
+  align-items: center; /* icon rata tengah vertikal */
+  justify-content: center; /*icon rata tengah horizontal */
+  border-top-left-radius: 12px; /* sudut kiri atas membulat */
+  border-bottom-left-radius: 12px; /* sudut kiri bawah membulat */
+  flex-shrink: 0; /* tidak mengecil jika ruang sempit */
+  transition: background 0.2s;
+  border-radius: 8px 0px 0px 8px; /* sudut membulat */
+}
+
+.navbar-home svg {
+  color: #fff; /* warna icon putih */
+  font-size: 1.5rem; /* ukuran icon */
+}
+
+.navbar-home:hover {
+  background-color: #2874dd; /* warna menu saat hover */
+}
+/* ===================== Menu ===================== */
+.navbar-menu {
+  display: flex; /* menu horizontal */
+  align-items: center; /* menu rata tengah vertikal */
+  flex: 1; /* menu isi ruang di tengah */
+}
+.navbar-menu ul {
+  display: flex; /* menu horizontal */
+  list-style: none; /* hilangkan bullet bawaan ul */
+  padding: 0 0 0 30px; /* padding kiri agar menu agak ke kanan */
+  gap: 32px; /* jarak antar menu */
+  margin: 0; /* hilangkan margin bawaan ul */
+}
+
+.navbar-menu li {
+  margin: 0; /* hilangkan margin default */
+}
+
+.navbar a {
+  text-decoration: none; /* hilangkan garis bawah link */
+  color: #222; /* warna teks menu */
+  font-weight: bold; /* teks tebal */
+  letter-spacing: 1px; /* spasi antar huruf */
+  font-family: inherit; /* pakai font dari parent */
+  font-size: 0.9rem; /* ukuran font menu */
+  text-transform: uppercase; /* semua huruf kapital */
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #3e8efd; /* warna menu saat hover */
+}
+
+/* ===================== Bagian Kanan (Sosial & Tombol) ===================== */
+.navbar-right {
+  display: flex; /* susun icon sosial & tombol secara horizontal */
+  align-items: center; /* rata tengah vertikal */
+  gap: 20px; /* jarak antar icon sosial dan tombol */
+  margin-right: 20px; /* jarak kanan 20px */
+}
+
+/* ===================== Icon Sosial Media ===================== */
+.navbar-social {
+  display: flex; /* susun icon sosial & tombol secara horizontal */
+  font-size: 1.2rem !important;
+}
+
+/* ===================== Tombol Hire Me ===================== */
+.hire-me-btn {
+  background: #3e8efd; /* biru solid */
+  color: #fff !important; /* teks putih, menimpa aturan global */
+  border: none;
+  border-radius: 22px; /* sudut membulat */
+  padding: 8px 8px 8px 18px; /* padding tombol */
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* jarak antara teks dan icon */
+  position: relative;
+  box-shadow: none;
+
+  /* pastikan tidak ada text-transform atau font-family yang mengubah warna */
+}
+
+.hire-me-btn:hover {
+  color: #2874dd !important; /*warna teks saat hover*/
+}
+
+/* ===================== Icon Pesawat di Tombol Hire Me ===================== */
+.hire-me-icon {
+  background: #fff; /* bulatan putih */
+  color: #000000; /* icon hitam (ubah ke #4b64c4 jika ingin biru) */
+  border-radius: 50%;
+  padding: 6px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}

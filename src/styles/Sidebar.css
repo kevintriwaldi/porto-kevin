@@ -1,0 +1,45 @@
+.sidebar-card {
+  height: 690px;
+  width: 250px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  background: #fff;
+
+  overflow: hidden;
+}
+
+.sidebar-image {
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px !important;
+
+  border-top: #e4e1e1 2px solid;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-title {
+  width: 100%;
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.sidebar-title h4 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.sidebar-title p {
+  font-size: 13px;
+  color: rgba(94, 94, 94, 0.884);
+}
+.sidebar-bio {
+  height: 300px;
+  font-size: 14px;
+  color: rgba(94, 94, 94, 0.884);
+}
