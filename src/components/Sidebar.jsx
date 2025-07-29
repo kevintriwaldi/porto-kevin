@@ -6,7 +6,7 @@ function Sidebar() {
     <div className="sidebar-card">
       <div className="sidebar-title">
         <h4>Kevin Wahyu Triwaldi</h4>
-        <p>Product Owner | Project Manager</p>
+        <p>Project Manager</p>
       </div>
       <div
         className="sidebar-image"
